@@ -1,0 +1,24 @@
+Git Commands Cheat Sheet
+Purpose Command
+Configure Git git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+Initialize Repository git init
+Check Status git status
+Add Single File git add file.txt
+Add All Files git add .
+Commit Changes git commit -m "First commit"
+View Commit History git log
+Create Branch git branch branch-name
+Switch Branch git checkout branch-name
+Create and Switch Branch git checkout -b branch-name
+Push Code git push origin main
+Pull Latest Code git pull
+Clone Repository git clone repository-url
+View Remote URL git remote -v
+Unstage File git restore --staged file.txt
+Delete Branch git branch -d branch-name
+Basic Git Workflow
+git status
+git add .
+git commit -m "message"
+git push
